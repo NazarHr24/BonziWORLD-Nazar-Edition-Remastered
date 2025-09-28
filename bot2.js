@@ -1,8 +1,8 @@
-const prefix = "$";
-const botname = "UbunuBOT (" + prefix + "help)";
+const prefix = "N!";
+const botname = "NazarBOT (" + prefix + "help)";
 const version = "█████████";
 var help =
-  "UbunuBOT Commands\n$help, $say {TEXT}, $joke, $fact, $botinfo, $roominfo";
+  "NazarBOT Commands\n$help, $say {TEXT}, $joke, $fact, $botinfo, $roominfo";
 var help = "Sleep Stream Commands\n$help, $execaudio";
 var botinfo =
   "UbunuBOT Version " +
@@ -27,9 +27,9 @@ setTimeout(() => {
   bot.emit("command", { list: ["color", "black"] });
 }, 3200);
 setTimeout(() => {
-  sendMsg("UbunuBOT is online. Type " + prefix + "help to see commands.");
+  sendMsg("NazarBOT is online! Type " + prefix + "help to see commands.");
   setInterval(() => {
-    sendMsg("UbunuBOT is online. Type " + prefix + "help to see commands.");
+    sendMsg("NazarBOT is online! Type " + prefix + "help to see commands.");
   }, 60000);
 }, 4300);
 
