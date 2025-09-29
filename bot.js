@@ -1,13 +1,13 @@
 var io = require("socket.io-client");
 var bot = io("//");
-sockets.push(bot);bot.emit("login", { name: "AnonyBOT | +help" });
+sockets.push(bot);bot.emit("login", { name: "NazarBOT | N!help" });
 bot.on("reconnected", reconnected);
 var reconnected = function () {
   var bot = io("//");
-  sockets.push(bot);bot.emit("login", { name: "AnonyBOT | +help" });
+  sockets.push(bot);bot.emit("login", { name: "NazarBOT | N!help" });
   bot.on("talk", function (data) {
     var text = data.text;
-    if (text.startsWith("+help")) {
+    if (text.startsWith("N!help")) {
       text = text.slice(1);
       var cmd = text.split(" ")[0];
       var oth = text.slice(cmd.length + 1);
@@ -76,7 +76,7 @@ var commands = {
       .join("");
   },
   mock(txt) {
-    if (txt.startsWith("+")) {
+    if (txt.startsWith("N!")) {
       return "hahahaha nice joke lmao hahaha- fuck you."
         .split("")
         .map((n) => {
