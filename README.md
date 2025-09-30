@@ -6,12 +6,12 @@ Do whatever you'd like with this code. Just try to put me somewhere in the credi
 
 ## Special Thanks To:
 
-- Joseph Judge (original; he was known as the creator of the original BonziWORLD)
+- Joseph Judge (original; he was known as the creator of the original BonziWORLD) (also he made original bonziworld)
 - Seamus (original creator of BW2, creator of bonkey.world (dead)/BWCE (bloated shitty server) (indefinitely dead))
 - **Swag FRENZY** (i guess i gave him special thanks after he made bonziworld)
 - hasdosface
-- gir (maybe)
-- earthbound/scumbag (i guess)
+- izhank216 (i guess lol)
+- bonziworld
 - luca, MTV Dance, BonziBOT VIP, Rover **(RDOK)**
 
 ## Are there notable differences?
