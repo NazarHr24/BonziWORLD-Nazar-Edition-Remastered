@@ -72,7 +72,7 @@ server.listen(port, function () {
     " Welcome to BonziWORLD Anony Edition Remastered!!\n", "HTTP Express Server listening on port " + port + "\n", "=+.----------------*-<|{ Logs }|>-*----------------.+=\n",
   );
 });
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/public")); // wonder why is it all publicc
 
 // ========================================================================
 // Banning functions
